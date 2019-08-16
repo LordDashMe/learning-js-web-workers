@@ -14,7 +14,7 @@ A simple example to test the Web Workers separation to the main browser window t
 
 - To check this you need to open your browser developer console tab.
 
-### Some Restriction
+### Restriction
 
 - Web Workers can't access DOM elements from the web page.
 
