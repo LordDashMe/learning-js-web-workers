@@ -1,0 +1,23 @@
+body {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 28px;
+}
+
+.output-cont {
+    border: 2px dashed #ccc;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 400px;
+    padding: 20px;
+}
+
+.output-cont h3 {
+    width: 200px; 
+    height: 100%;
+}
+
+.output-cont button {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;   
+    padding: 4px 8px; 
+}

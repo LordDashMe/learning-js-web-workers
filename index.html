@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Learning JS Web Workers</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="output-cont">
+            <button onclick="testWorker()">Start Worker</button> <button onclick="terminateWorker()">Terminate Worker</button>
+            <h3 id="workerOutput">Web Worker Counter: </h3>
+        </div>
+        <br/>
+        <div class="output-cont">
+            <button onclick="testMainThread()">Start Blocking Main Thread</button>
+            <h3 id="mainThreadOutput">Main Thread Counter: </h3>
+        </div>
+        <br/>
+        <div class="output-cont">
+            <button onclick="alert('This prompt is blocking the main thread!')">Prompt Alert</button>
+        </div>
+    </div>
+    <script type="application/javascript" src="js/main.js"></script>
+</body>
+</html>
