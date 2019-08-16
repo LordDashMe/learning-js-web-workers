@@ -14,6 +14,16 @@ A simple example to test the Web Workers separation to the main browser window t
 
 - To check this you need to open your browser developer console tab.
 
+### Some Restriction
+
+- Web Workers can't access DOM elements from the web page.
+
+- Web Workers can't access global variables and JavaScript functions from the web page.
+
+- Web Workers can't call alert() or confirm() functions.
+
+- Objects such as window, document and parent can't be accessed inside the web worker.
+
 ## Reference
 
 - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
