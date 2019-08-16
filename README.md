@@ -14,6 +14,10 @@ A simple example to test the Web Workers separation to the main browser window t
 
 - To check this you need to open your browser developer console tab.
 
+## Reference
+
+- [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
+
 ## License
 
 This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
